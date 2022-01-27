@@ -6,7 +6,7 @@ Crie chaves pix copia e cola dinamicamente, com QrCode.
 $ npm install pixout
 ```
 
-#Uso
+# Uso
 
 ### Gerar código copia e cola
 Você pode gerar o código copia e cola separadamente importando o método ``createCode()``, como no exemplo abaixo:
