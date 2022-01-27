@@ -1,14 +1,14 @@
 # pixout
 Crie chaves pix copia e cola dinamicamente, com QrCode.
 
-# Instalação
+### Instalação
 ```bash
 $ npm install pixout
 ```
 
-# Uso
+### Uso
 
-### Gerar código copia e cola
+#### Gerar código copia e cola
 Você pode gerar o código copia e cola separadamente importando o método ``createCode()``, como no exemplo abaixo:
 
 ```js
@@ -25,7 +25,7 @@ const pixCode = createCode({
 ```
 O método ``createCode()`` recebe um objeto com as propriedades para gerar o código pix, as quais são opcionais ``amount``, ``description``, e ``identifier``
 
-### Gerar QrCode
+#### Gerar QrCode
 Tendo armazenado o código copia e cola numa constante ou variável, como no exemplo acima, basta importar o método ``makeQrCode()``, como no exemplo abaixo:
 
 ```js
