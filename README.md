@@ -43,6 +43,6 @@ const pixCode = createCode({
 const qrCode = makeQrCode(pixCode, '200x200')
 
 ```
-o método ``makeQrCode()`` recebebe dois argumentos, o primeiro refere-se ao código copia e cola, e o segundo, opcional, refere-se ao tamanho do QrCode em pixels. O tamanho padrão é 300x300
+o método ``makeQrCode()`` recebebe dois argumentos, o primeiro refere-se ao código copia e cola, e o segundo, opcional, refere-se ao tamanho do QrCode em pixels. O tamanho padrão é ``300x300``
 
 
